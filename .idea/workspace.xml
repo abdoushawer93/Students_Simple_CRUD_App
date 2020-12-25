@@ -14,6 +14,11 @@
       <change afterPath="$PROJECT_DIR$/../first/routes/admin.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../starter/resources/views/Emails/mailuser.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StudentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/StudentSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/StudentSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/students/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/students/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../laravel-s01/blog/.editorconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../laravel-s01/blog/.env.example" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../laravel-s01/blog/.gitattributes" beforeDir="false" />
@@ -14638,7 +14643,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -14798,6 +14803,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608718545226</updated>
       <workItem from="1608718588887" duration="18636000" />
+      <workItem from="1608891071007" duration="11567000" />
     </task>
     <servers />
   </component>
@@ -14814,6 +14820,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="339" y="157" key="run.anything.popup" timestamp="1608750543459">

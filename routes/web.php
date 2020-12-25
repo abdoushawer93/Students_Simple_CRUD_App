@@ -16,3 +16,5 @@ Route::get('/',function(){
    return view('home');
 });
 Route::resource('students','StudentController');
+
+Route::get('/student/loadDetails/{id}','StudentController@loadDetails');

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Student;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class StudentController extends Controller
 {
@@ -16,7 +17,7 @@ class StudentController extends Controller
     {
         return view('admin.students.index', [
             'students' => Student::query()
-                ->get()
+                ->paginate(10)
         ]);
     }
 
@@ -89,5 +90,19 @@ class StudentController extends Controller
     {
         $student->delete();
         return redirect(route('students.index'));
+    }
+    public function loadDetails($student_id = NULL){
+        $id = intval(trim($student_id));
+        $row = Student::query()
+            ->where('id',$student_id)
+            ->get();
+        foreach ($row as $student){
+            return
+                'Name : ' .$student->name . '<br/>' .
+                'Email : ' .$student->email . '<br/>' .
+                'Password : ' .$student->password . '<br/>' .
+                'Created at : ' .$student->created_at . '<br/>' .
+                'Updated at : ' .$student->updated_at . '<br/>' ;
+        }
     }
 }
